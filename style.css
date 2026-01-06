@@ -84,6 +84,26 @@ body {
     min-height: calc(100vh - 200px);
     backdrop-filter: blur(10px);
     animation: fadeIn 0.6s ease-in;
+    position: relative;
+    overflow: hidden;
+}
+
+.container::before {
+    content: "❄";
+    position: absolute;
+    font-size: 30rem;
+    color: rgba(102, 126, 234, 0.08);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(15deg);
+    z-index: 0;
+    pointer-events: none;
+    user-select: none;
+}
+
+.container > * {
+    position: relative;
+    z-index: 1;
 }
 
 @keyframes fadeIn {
