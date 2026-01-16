@@ -139,9 +139,14 @@ h2 {
 }
 
 h3 {
-    color: #34: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    color: #667eea;
+    margin-bottom: 0.5rem;
+}
+
+.update-card {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
     padding: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     border-radius: 15px;
     border-left: 5px solid #667eea;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
